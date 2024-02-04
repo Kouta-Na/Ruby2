@@ -82,11 +82,8 @@ loop{
             #相手が勝ちの場合
             return 3
           end
-    
         end
-    
       end
-    
     end
   
     battle1 = Battle1.new(hand, enemy_hand)
@@ -149,7 +146,6 @@ loop{
     elsif result_battle2 == 1
       next
     end
-
   end
 }
 
